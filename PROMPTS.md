@@ -60,3 +60,15 @@ update the readme.md and agents.md files about the tasks so we all know how to u
 ## 2026-01-21T13:17:31Z
 
 i've install golangci-lint (if you add go env to the PATH) and i see some linting errors, please review and correct
+
+---
+
+## 2026-01-21T13:24:45Z
+
+add the MIT license, with License.txt and a reference in the readme.   the author is Evan Wies (evan@neomantra.net).   You can add in the readme that this was created in Claude Code with Claude Opus 4.5, inside a fly.io sprite
+
+---
+
+## 2026-01-21T13:26:07Z
+
+reat.   however the year is 2026, so change 2025 to 2026 there.   Also in the disclaimer, change the first sentence to be "This is a toy project, for educational and novelty purposes only."

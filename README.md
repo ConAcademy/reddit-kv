@@ -190,8 +190,14 @@ func main() {
 
 ## License
 
-MIT
+MIT License - see [LICENSE.txt](LICENSE.txt)
+
+Copyright (c) 2026 Evan Wies (evan@neomantra.net)
+
+## Acknowledgments
+
+This project was created with [Claude Code](https://docs.anthropic.com/en/docs/claude-code) using Claude Opus 4.5, running inside a [Fly.io Sprite](https://fly.io/docs/sprites/).
 
 ## Disclaimer
 
-This is a joke project. Please don't actually use Reddit as your production database. The badgers will come for you.
+This is a toy project, for educational and novelty purposes only. Please don't actually use Reddit as your production database. The badgers will come for you.
