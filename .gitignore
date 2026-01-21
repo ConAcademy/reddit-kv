@@ -1,0 +1,9 @@
+# BuffaloBuffalo .gitignore
+
+# System files
+.DS_Store
+
+# Temporary files
+*~
+#*
+*#
