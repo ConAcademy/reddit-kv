@@ -22,7 +22,40 @@ Or build from source:
 ```bash
 git clone https://github.com/yourusername/reddit-kv
 cd reddit-kv
-go build -o reddit-kv ./cmd/reddit-kv
+task build
+```
+
+## Development
+
+This project uses [Task](https://taskfile.dev/) for build automation.
+
+### Prerequisites
+
+```bash
+# Install Task (https://taskfile.dev/installation/)
+go install github.com/go-task/task/v3/cmd/task@latest
+
+# Install golangci-lint for linting (optional)
+# https://golangci-lint.run/usage/install/
+```
+
+### Common Tasks
+
+```bash
+task              # Show all available tasks
+task build        # Build binary to ./bin/reddit-kv
+task test         # Run tests with verbose output
+task test:short   # Run tests (quiet)
+task test:cover   # Run tests with coverage report
+task fmt          # Format code
+task vet          # Run go vet
+task lint         # Run golangci-lint
+task tidy         # Tidy go modules
+task clean        # Remove build artifacts
+task install      # Install to $GOPATH/bin
+task run -- args  # Run CLI with arguments (e.g., task run -- set foo bar)
+task check        # Run fmt, vet, lint, and test
+task all          # Tidy, check, and build
 ```
 
 ## Setup

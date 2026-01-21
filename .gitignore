@@ -1,4 +1,9 @@
-# BuffaloBuffalo .gitignore
+# reddit-kv .gitignore
+
+# Build files
+.task/
+bin/
+coverage.out
 
 # System files
 .DS_Store
