@@ -72,6 +72,11 @@ tasks:
     cmds:
       - go run {{.MAIN_PKG}} {{.CLI_ARGS}}
 
+  demo:
+    desc: Run demo with mock backend (no Reddit credentials needed)
+    cmds:
+      - go run ./cmd/demo
+
   # Composite tasks
   check:
     desc: Run all checks (fmt, vet, lint, test)

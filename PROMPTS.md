@@ -72,3 +72,15 @@ add the MIT license, with License.txt and a reference in the readme.   the autho
 ## 2026-01-21T13:26:07Z
 
 reat.   however the year is 2026, so change 2025 to 2026 there.   Also in the disclaimer, change the first sentence to be "This is a toy project, for educational and novelty purposes only."
+
+---
+
+## 2026-01-21T13:28:53Z
+
+i am creating a Reddit app, but it is asking for a Redirect URL, what should i put?  also make me a description.  
+
+---
+
+## 2026-01-21T13:36:33Z
+
+i'm having issues creating an app, but i can try to proceed at low-level rate limits.  walk me through some manual tests
