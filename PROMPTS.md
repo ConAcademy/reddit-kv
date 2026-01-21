@@ -54,3 +54,9 @@ i like taskfile.  create a taskfile with jobs tidy, build, and test.   Are there
 ## 2026-01-21T13:10:54Z
 
 update the readme.md and agents.md files about the tasks so we all know how to use them
+
+---
+
+## 2026-01-21T13:17:31Z
+
+i've install golangci-lint (if you add go env to the PATH) and i see some linting errors, please review and correct

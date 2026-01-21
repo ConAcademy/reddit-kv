@@ -112,7 +112,7 @@ func (c *KVClient) Append(key, value string, parentPath []int) error {
 
 	var parentID string
 
-	if parentPath == nil || len(parentPath) == 0 {
+	if len(parentPath) == 0 {
 		// Append as new top-level comment (sibling to root)
 		parentID = post.FullID
 	} else {

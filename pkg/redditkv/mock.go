@@ -11,9 +11,9 @@ import (
 
 // MockRedditAPI is a mock implementation of RedditAPI for testing.
 type MockRedditAPI struct {
-	mu       sync.RWMutex
-	posts    map[string]*mockPost // postID -> post
-	comments map[string]*reddit.Comment // commentID -> comment
+	mu        sync.RWMutex
+	posts     map[string]*mockPost       // postID -> post
+	comments  map[string]*reddit.Comment // commentID -> comment
 	idCounter int
 }
 
